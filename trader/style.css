@@ -1,0 +1,151 @@
+/* Common */
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.table tr td {
+    vertical-align: middle;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.list-group-item img {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+
+/* Sidebar */
+.sidebar {
+    height: calc(100% + 20px);
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    margin-top: -20px;
+    left: 0;
+    background-color: #2E2E2E;
+    overflow-x: hidden;
+    padding-top: 10px;
+}
+
+.sidebar__image {
+    background-color: #fff;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.sidebar__image img {
+    object-fit: contain;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    border-bottom: 1px solid #444;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+    background-color: #575757;
+}
+
+/* Header */
+.header__container {
+    padding: 8px 30px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    margin-left: 250px;
+}
+
+.header__container .name {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header__container .description {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header__container .search form {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 5rem;
+    padding: 0 10px;
+}
+
+.header__container .search input {
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    border-radius: 5rem;
+}
+
+.header__container .search button {
+    background: transparent;
+    border: 0;
+}
+
+.header__container .header__user {
+    display: flex;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.header__user-trader .trader-name {
+    font-weight: 600
+}
+
+.header__user-trader .trader-role {
+    text-align: right;
+}
+
+/* Home */
+.main__content {
+    background-color: #E5E5E5;
+    margin-left: 250px;
+    padding: 20px;
+    min-height: calc(100vh - 76px);
+}
+
+/* Product Page */
+.product__container {
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.product__image {
+    width: 80px;
+    height: 80px;
+}
+
+.product__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Order Status */
+.order__status {
+    display: flex;
+    grid-gap: 20px;
+}

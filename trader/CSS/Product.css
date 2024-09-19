@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: rgb(194, 230, 231);
+  height: auto;
+  width: auto;
+}  
+
+.name {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+
+.description {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color:black;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.logo {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #ffffff;
+padding: 10px 20px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo img {
+margin-right: 10px;
+}
+
+.search {
+flex: 1;
+position: relative;
+margin-left: 1000px; 
+margin-top: 20px;
+}
+
+
+
+.search form {
+display: flex;
+align-items: center;
+}
+
+.search input[type="text"] {
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 20px;
+}
+
+.search button {
+padding: 8px;
+background-color: transparent;
+border: none;
+border-radius: 50%;
+cursor: pointer;
+}
+
+.search button i {
+color: #4CAF50;
+}
+
+.search button:hover {
+background-color: rgba(76, 175, 80, 0.2);
+}
+
+.user-info {
+display: flex;
+align-items: center;
+}
+
+.user-logo img {
+margin-right: 10px;
+}
+
+.trader-name {
+font-weight: bold;
+}
+
+/* Trader Profile Section */
+.profile-box {
+background-color: #a3e0f3;
+border: 1px solid #ddd;
+border-radius: 5px;
+padding: 20px;
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+align-items: center; /* Align items vertically in the center */
+justify-content: center; /* Center the content vertically */
+}
+
+.profile-box h2 {
+margin-bottom: 20px;
+font-size: 24px;
+text-align: center; /* Center the text horizontally */
+}
+
+.profile-box .form-group {
+margin-bottom: 15px;
+}
+
+.profile-box label {
+display: block;
+font-weight: bold;
+}
+
+.profile-box input[type="text"],
+.profile-box input[type="email"],
+.profile-box input[type="password"],
+.profile-box select {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.profile-box select {
+background-color: #fff;
+color: #333;
+}
+
+.profile-box button[type="submit"] {
+background-color: #4CAF50;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.profile-box button[type="submit"]:hover {
+background-color: #45a049;
+}
+
+
+*{
+  font-family: "Nunito", sans-serif; 
+  margin:0; padding:0; 
+  box-sizing: border-box;
+  outline: none; border: none; 
+  text-decoration: none;
+  transition: all •2s linear;
+  text-transform: capitalize;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body{
+  background: #eee;
+
+}
+
+.container{
+  max-width: 1200px;
+  padding:3rem 2rem;
+  gap:15px;
+}
+
+.container .title{
+  font-size: 20px;
+  text-align: left;
+  margin-right: 350px;
+  color:#444;
+  margin-bottom: 3rem; 
+  text-transform: uppercase;
+  text-align:center;
+}
+
+.container .products-container{
+  display:grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); 
+   gap:15px;
+  margin-left: 400px; 
+}
+
+.container .products-container .product{
+  text-align: center;
+  padding: 3rem 2rem;
+  background: #fff;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  outline: .1rem solid#ccc;
+  outline-offset: -1.5rem;
+  cursor: pointer;
+}
+
+.container .products-container .product:hover{
+  outline: .2rem solid #222;
+  outline-offset: 0;
+}
+
+.container .products-container .product img{
+  height: 20rem;
+  width: 20rem;
+  margin:0 auto;
+  display:block;
+}
+
+.container .products-container .product:hover img{
+  transform: scale(.9);
+}
+
+.container .products-container .product h3{
+  padding:.5rem 0;
+  font-size: 2rem;
+  color: #444;
+}
+
+.container .products-container .product .hover h3{
+  color: #27ae60;
+
+}
+
+.container .products-container .product .price{
+  font-size: 2rem;
+  color:#444;
+}
+
+
+.add-product-btn,
+.delete-product-btn {
+margin-top: 10px; 
+padding: 10px 20px;
+font-size: 16px; 
+background-color: #242527;
+color: #fff; 
+border: none; 
+border-radius: 5px; 
+cursor: pointer; 
+transition: background-color 0.3s, color 0.3s; 
+}
+
+.add-product-btn:hover,
+  .delete-product-btn:hover {
+    background-color: #0056b3; 
+  }
+
+
+
+
+  
+  
+  
+  
+  
+  
+ 
+ 
+
+
+
+
+
+

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>trader_home</title>
+  <link rel="stylesheet" href="CSS/trader_profile.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <style>
+    .sidebar {
+      height: 100%;
+      width: 200px;
+      position: fixed;
+      z-index: 1;
+      margin-top: 0px;
+      left: 0;
+      background-color: #a5c9ed;
+      overflow-x: hidden;
+      padding-top: 10px;
+    }
+    .sidebar a {
+      padding: 20px 15px;
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+      display: block;
+      border-bottom: 1px solid #444;
+    }
+    .sidebar a:hover {
+      color: #f1f1f1;
+      background-color: #575757;
+    }
+    
+    #homeLink {
+      padding: 20px 15px;
+      height: 30px;
+      line-height: 50px;
+    }
+    .content {
+      margin-left: 250px;
+      padding: 1px 16px;
+      height: 1000px;
+    }
+  </style> 
+
+<div class="sidebar">
+  <img src="images/LOGO.png" alt="Logo" width="150px" height="100px">
+
+  <a href="#home" id="homeLink"><img src="images/HOME.png"alt="Home" width="30px" height="30px"> Home</a>
+  <a href="#analytics"><img src="images/ANALYTICS.png"alt="Analytics"  width="30px" height="30px"> Analytics</a>
+  <a href="#products"><img src="images/PRODUCT.png"alt="Analytics"  width="30px" height="30px"> Products</a>
+  <a href="#orders"> <img src="images/ORDERS.png"alt="Home" width="30px" height="30px"> Orders</a>
+  <a href="#shop"> <img src="images/SHOP.png"alt="Home" width="30px" height="30px"> Shop</a>
+  <a href="#settings"> <img src="images/SETTING.png"alt="Home" width="30px" height="30px"> Settings</a>
+  <a href="#log out"> <img src="images/log out.png" alt="Log out" width="30px" height="30px"> log out</a> 
+
+</div>
+
+<div class="search">
+  <form action="/search" method="GET">
+      <input type="text" name="q" placeholder="search">
+      <button type="submit"><i class="fas fa-search"></i>Search</button>
+      <div class="user-info">
+        <img src="images/USER.png" alt="User" width="30px" height="30px">
+        <span class="trader-name">Trader Name</span>
+      </div>
+    
+  </form>
+
+</div>
+
+    <div class="name">
+      Welcome Back, Trader_Name
+      <div class="description">
+        Here are today's stats from your Online Store!
+    </div>
+    </div>
+
+  
+    
+
+  
+  <!-- Trader Profile Section
+  <div class="profile-box">
+    <h2>Trader Profile</h2>
+    <form>
+      <div class="form-group">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName">
+      </div>
+      <div class="form-group">
+        <label for="middleName">Middle Name:</label>
+        <input type="text" id="middleName" name="middleName">
+      </div>
+      <div class="form-group">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName">
+      </div>
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <select id="age" name="age">
+          <option value="18-25">18-25</option>
+          <option value="26-35">26-35</option>
+          <option value="36-45">36-45</option>
+          <option value="46+">46+</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="contactNumber">Contact Number:</label>
+        <input type="text" id="contactNumber" name="contactNumber">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+      </div>
+      <div class="form-group">
+        <label for="oldPassword">Old Password:</label>
+        <input type="password" id="oldPassword" name="oldPassword">
+      </div>
+      <div class="form-group">
+        <label for="newPassword">New Password:</label>
+        <input type="password" id="newPassword" name="newPassword">
+      </div>
+      <button type="submit">Update</button>
+    </form>
+  </div> -->
+  
+</body>
+</html>

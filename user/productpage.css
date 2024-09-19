@@ -1,0 +1,123 @@
+.rectangle {
+    border: 1px solid #aaaaaa;
+    border-radius: 6px;
+    width: 50%;
+    background-color: #f0f0f0;
+    position: relative;
+    top: -30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-left: 25%;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.search-bar input {
+    padding: 8px 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.search-bar button {
+    background-color: transparent;
+    border: #333;
+    color: #333;
+    cursor: pointer;
+}
+
+.dropdowns {
+    display: flex;
+    padding: 0px 20px;
+}
+
+.dropdown {
+    position: relative;
+    margin-left: 50px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    min-width: max-content
+}
+
+/* Media query for 375x667 screen */
+@media screen and (max-width: 375px) {
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        min-height: 100vh;
+    }
+
+    .rectangle {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dropdowns {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .dropdown {
+        margin: 10px;
+        flex: 1;
+        max-width: calc(50% - 20px);
+    }
+
+    .search-bar {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 10px;
+    }
+
+    .search-bar input {
+        width: calc(100% - 30px);
+        padding: 5px;
+        margin-right: 5px;
+    }
+}
+
+

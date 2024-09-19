@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Profile</title>
+    <link rel="stylesheet" href="customer.css"/>
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="footer.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <img src="images/LOGO.png" class="navbar-logo" alt="logo" />
+        <ul class="navbar-list">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">CATEGORIES</a></li>
+            <li><a href="#">ALL PRODUCTS</a></li>
+        </ul>
+        <div class="box">
+            <input type="checkbox" id="check">
+            <div class="search-box">
+                <input type="text" placeholder="Search Products...">
+                <label for="check" class="icon">
+                    <i class="fas fa-search"></i>
+                </label>
+            </div>
+        </div>
+        <div class="profile-dropdown">
+            <div onclick="toggle()" class="profile-dropdown-btn">
+                <div class="profile-img">
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+                <span>User</span><i class="fa-solid fa-angle-down"></i>
+            </div>
+            <ul class="profile-dropdown-list">
+                <li class="profile-dropdown-list-item"><a href="#"><i class="fa-regular fa-user"></i>Account</a></li>
+                <li class="profile-dropdown-list-item"><a href="#"><i class="fa fa-heart-o"
+                            aria-hidden="true"></i>Wishlist</a></li>
+                <li class="profile-dropdown-list-item"><a href="#"><i class="fa fa-shopping-cart"></i>Cart</a></li>
+                <hr />
+                <li class="profile-dropdown-list-item"><a href="#"><i
+                            class="fa-solid fa-arrow-right-from-bracket"></i>Log out</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="main-wrapper">
+        <aside class="sidebar">
+            <nav class="side-navigation">
+                <a href="#" class="side-nav-item">Manage Account</a>
+                <p>Personal Details</p>
+                <p>Delivery Address</p>
+                <a href="#" class="side-nav-item">Orders</a>
+                <a href="#" class="side-nav-item">Reviews</a>
+                <a href="#" class="side-nav-item">Wish List</a>
+                <a href="#" class="side-nav-item">Cart</a>
+                <a href="#" class="side-nav-item">Become a Trader</a>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <h2>Manage My Account</h2>
+            <div class="details-container">
+                <section class="personal-details">
+                    <h3>Personal Details<a href="#" class="edit-profile">| EDIT</a></h3>
+                    <p>[Customer's Full Name]</p>
+                    <p>personalmail@example.com</p>
+                </section>
+
+                <section class="delivery-address">
+                    <h3>Delivery Address<a href="#" class="edit-profile">| EDIT</a></h3>
+                    <h2>DEFAULT DELIVERY ADDRESS</h2>
+                    <p>[Customer's Full Name]</p>
+                    <p>123 Green Street</p>
+                    <p>Manchester</p>
+                    <p>M1 2NQ</p>
+                    <p>United Kingdom</p>
+                </section>
+            </div>
+
+
+
+            <section class="recent-orders">
+                <h3>Recent Orders</h3>
+                <table>
+                    <tr>
+                        <th>Title</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                        <th>Amount</th>
+                        <th>Details</th>
+                    </tr>
+                    <!-- Row 1 -->
+                    <tr>
+                        <td>value</td>
+                        <td>value</td>
+                        <td>value</td>
+                        <td>value</td>
+                        <td>value</td>
+                    </tr>
+                    <!-- Row 2 -->
+                    <tr>
+                        <td>value</td>
+                        <td>value</td>
+                        <td>value</td>
+                        <td>value</td>
+                        <td>value</td>
+                    </tr>
+                    <!-- Row 3 -->
+                    <tr>
+                        <td>value</td>
+                        <td>value</td>
+                        <td>value</td>
+                        <td>value</td>
+                        <td>value</td>
+                    </tr>
+                    <!-- Row 4 -->
+                    <tr>
+                        <td>value</td>
+                        <td>value</td>
+                        <td>value</td>
+                        <td>value</td>
+                        <td>value</td>
+                    </tr>
+                    <!-- Row 5 -->
+                    <tr>
+                        <td>value</td>
+                        <td>value</td>
+                        <td>value</td>
+                        <td>value</td>
+                        <td>value</td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+
+        <script src="nav.js"></script>
+
+</body>
+
+</html>

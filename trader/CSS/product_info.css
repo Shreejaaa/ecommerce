@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.cauliflower{
+width:100px;
+height:100px;
+margin-left:300px;
+margin-top:180px;
+}
+
+.name {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+
+.description {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color:black;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.container {
+  width: 500px;
+  margin-left: 850px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top:-200px;
+  position: absolute; /* To ensure that the container remains in the flow of the document */
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.text{
+width:200px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea-1 {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #070708;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #290bc4;
+}
+
+
+.search {
+  flex: 1;
+  position: relative;
+  margin-left: 1000px; 
+  margin-top: 20px;
+}
+
+
+
+.search form {
+  display: flex;
+  align-items: center;
+}
+
+.search input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.search button {
+  padding: 8px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.search button i {
+  color: #4CAF50;
+}
+
+.search button:hover {
+  background-color: rgba(76, 175, 80, 0.2);
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-logo img {
+  margin-right: 10px;
+}
+
+.trader-name {
+  font-weight: bold;
+  
+}

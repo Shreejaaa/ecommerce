@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --text-clr: #4f4f4f;
+}
+
+p {
+    color: #6c757d;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-clr);
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--text-clr);
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    color: var(--text-clr);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.main_cart {
+    background: #fff;
+}
+
+.order_tag {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+}
+
+.product_img img {
+    min-width: 200px;
+    max-height: 200px;
+}
+
+.product_name {
+    color: black;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.card-title p {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.remove-and-wish p {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+.price-money h3 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.set_quantity {
+    position: relative;
+}
+
+.set_quantity::after {
+    content: "(Note: Min 1 piece)";
+    width: auto;
+    height: auto;
+    text-align: center;
+    position: relative;
+    bottom: -40px;
+    right: 8.5rem;
+    font-size: 0.8rem;
+}
+
+.page-link {
+    line-height: 16px;
+    width: 45px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #495057;
+}
+
+.border-radius {
+    border-radius: 0 !important;
+}
+
+.set_quantity .count {
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.set_quantity .decrease {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.set_quantity .increase {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.page-item input {
+    line-height: 22px;
+    padding: 3px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.page-link:hover {
+    text-decoration: none;
+    color: #495057;
+    outline: none !important;
+}
+
+.page-link:focus {
+    box-shadow: none;
+}
+
+.price_indiv p {
+    font-size: 1.1rem;
+}
+
+.fa-heart:hover {
+    color: red;
+}
+
+.fa-trash-alt:hover {
+    color: black;
+}
+
+.remove_wish .fa-trash-alt {
+    transform: scale(2);
+    transform-origin: center;
+    margin-top: 1.5em;
+    margin-right: 0.5em;
+    font-size: 16px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button {
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #333;
+}
+
+.button, .page-link {
+    border-radius: 7px;
+}
+
+.right_side .button-container .button {
+    width: 100%;
+}
